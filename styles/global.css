@@ -1,0 +1,45 @@
+html {
+    box-sizing: border-box;
+    font-family: Verdana;
+  }
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+.navbar{
+    position:fixed;
+    top:0;
+    height:5rem;
+    width: 100%;
+    background-color: #FFFFFF;
+  }
+
+.navbar__title{
+    display:flex;
+    width:20%;
+    height:100%;
+    color:#335576;
+    margin-left: 3rem;
+  }
+
+.navbar__link{
+    display:flexbox;
+    width:15%;
+    text-decoration:none;
+    color:black;
+  }
+
+.navbar__link--active{
+    width:20%;
+    text-decoration:none;
+    color:black;
+    border-bottom: 2px solid #DB7A4E;
+ }
+
+ .footer{
+    height:15rem;
+}
+ 
