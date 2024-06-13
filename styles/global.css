@@ -11,18 +11,29 @@ html {
 
 .navbar{
     position:fixed;
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
     top:0;
     height:5rem;
     width: 100%;
     background-color: #FFFFFF;
   }
 
+  .navbar__panel{
+    display:flex;
+    width: 50%;
+    justify-content: flex-end;
+    align-items: center;
+
+  }
+
 .navbar__title{
     display:flex;
     width:20%;
-    height:100%;
     color:#335576;
-    margin-left: 3rem;
+    padding-left: 3rem;
+
   }
 
 .navbar__link{
@@ -33,7 +44,7 @@ html {
   }
 
 .navbar__link--active{
-    width:20%;
+    width:15%;
     text-decoration:none;
     color:black;
     border-bottom: 2px solid #DB7A4E;
