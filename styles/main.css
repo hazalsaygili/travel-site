@@ -34,7 +34,6 @@ h3{
 }
 
 .hero__startButton{
-    background-color: #DB7A4E;
     border-radius: 1rem;
     border-width: 0;
     color: #FFFFFF;
@@ -54,7 +53,7 @@ h3{
     flex-direction: row;
     width:25%;
     border-radius:5px;
-    border: 1px solid rgba(0, 0, 0, 0.5);
+    border: 1px solid rgba(0, 0, 0, 0.2);
     margin: 2rem;
     padding:0;
 }
