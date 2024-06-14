@@ -4,6 +4,7 @@
     background-position:center;
     height:100vh;
     width:100vw;
+
 }
 
 .destination__panel{
@@ -27,3 +28,46 @@ h1{
 .destination__greece{
     background-image: url("../assets/Images/greece.jpg");
 }
+
+.activities__panel{
+    display:flex;
+    max-width:85vw;
+    max-height:50vh;
+    align-items:center;
+    justify-content: space-between;
+    padding:0 4vw 2vh 18vw;
+
+}
+
+.activities__list{
+    display:flex;
+    flex-direction: column;
+    list-style-type: none;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #FFFFFF;
+    height:50vh;
+    width:18vw;
+    padding: 0 1vw 6vh 1vw;
+    border-radius: 0.4rem;
+
+}
+
+.activity__day{
+    font-size: 1.2rem;
+    width:100%;
+    height:50;
+    font-weight:1000;
+    text-align: center;
+    border-bottom: 3px solid black;
+}
+
+.activity__item{
+    background-color:#FEFAF5;
+    width:100%;
+    height:16%;
+    text-align: center;
+    padding: 0.5rem 0 0.5rem 0;
+
+}
+
