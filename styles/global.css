@@ -19,29 +19,39 @@ html {
     width: 100%;
     background-color: #FFFFFF;
     padding: 1.5vh 6vw 1.5vh 6vw;
-  }
+}
 
 .navbar__title{
     display:flex;
     width:40%;
     color:#335576;
-    font-size: 1.6rem;
+    font-size: 1.5rem;
     font-weight:900;
-  }
+}
 
-  .navbar__panel{
+h2{
+    color:#335576;
+}
+
+a{
+    text-decoration:none;
+}
+
+.navbar__panel{
     display:flex;
     width: 70%;
     justify-content: flex-end;
     align-items: center;
+    list-style: none;
   }
+
 
 .navbar__link{
     display:flexbox;
     text-align: center;
     text-decoration:none;
     color:black;
-    padding:1rem;
+    padding: 0.7rem;
   }
 
 .navbar__link--active{
@@ -50,7 +60,7 @@ html {
     text-align: center;
     color:black;
     border-bottom: 3px solid #DB7A4E;
-    padding:1rem;
+    padding:0.7rem;
 
  }
 
@@ -103,6 +113,7 @@ html {
 .footer__parag{
     margin:0;
     font-size:0.6rem;
+    color:#335576;
 }
 
 .socialmedia{
