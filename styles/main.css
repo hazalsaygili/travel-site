@@ -2,7 +2,7 @@ h1 {
     color: #335576;
     max-height: 100%;
     max-width: 100%;
-    font-size: 2.8rem;
+    font-size: 2.6rem;
 }
 
 
@@ -15,23 +15,24 @@ p {
 .hero {
     display: flex;
     width: 100%;
+    height:80vh;
     background-color: #FEFAF5;
     margin-top: 9vh;
-    padding: 7vh 7vw 7vh 7vw;
+    padding: 8vh 8vw 8vh 8vw;
 }
 
 .hero__container {
     display: flex;
     flex-direction: column;
     height: 100%;
-    width: 50%;
+    width: 70%;
 }
 
 .hero__travelImage {
     display: flex;
-    max-height: 100%;
-    max-width: 50%;
-    margin-left: 5vw;
+    max-height: 90%;
+    max-width: 40%;
+    margin-left: 12vw;
 }
 
 .hero__startButton {
@@ -45,7 +46,10 @@ p {
     background-color: #DB7A4E;
     width: 30%;
     font-size: 1.25rem;
+    cursor:pointer;
+    
 }
+
 
 .recommendations {
     background-color: #FFFFFF;
