@@ -7,11 +7,13 @@
 }
 
 .destination__panel{
-    padding:7rem;
+    padding: 2rem 6rem 3rem 6rem;
 }
 
 h1{
     color:#FFFFFF;
+    font-size: 4rem;
+    font-weight: bolder;
 }
 
 .destination__hawaii{
