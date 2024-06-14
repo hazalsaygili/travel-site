@@ -2,7 +2,7 @@ h1{
     color:#335576;
     max-height:100%;
     max-width:100%;
-    font-size:3rem;
+    font-size:2.8rem;
 }
 
 h2{
@@ -11,6 +11,7 @@ h2{
 
 p{
     color:#335576;
+    font-size:1.25rem;
 }
 
 h3{
@@ -48,7 +49,7 @@ h3{
     padding:0.5rem;
     background-color:#DB7A4E;
     width: 30%;
-
+    font-size: 1.25rem;
 }
 
 .recommendations{

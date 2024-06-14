@@ -23,8 +23,10 @@ html {
 
 .navbar__title{
     display:flex;
-    width:30%;
+    width:40%;
     color:#335576;
+    font-size: 1.6rem;
+    font-weight:900;
   }
 
   .navbar__panel{
@@ -55,9 +57,9 @@ html {
  .footer{
     display:flex;
     justify-content:center;
-    height:20vh;
+    height:30vh;
     background-color: #FEFAF5;
-    padding:5vh 11vw 5vh 11vw; 
+    padding:5vh 15vw 5vh 17vw; 
 
 }
 
@@ -78,12 +80,15 @@ html {
 .footer__days{
     display:flex;
     width:100%;
+    justify-content:flex-start;
+
 }
 
 .footer__hours{
     display:flex;
     font-size: 0.8rem;
-    justify-content:flex-start;
+    max-width:68%;
+    justify-content:space-between;
 }
 .footer__subtitle{
     color:#DB7A4E;
@@ -110,12 +115,12 @@ html {
     flex-direction:row;
     align-items:center;
     justify-content: space-between;
+    padding:1rem 1rem 1rem 0;
 
 }
 
 .socialmedia__icon{
-    height:2rem;
     display:flex;
-    margin:0.4rem;
+    height:2rem;
 }
  
