@@ -1,20 +1,16 @@
-
-
 h1{
     color:#335576;
     max-height:100%;
     max-width:100%;
-    margin-left: 3rem;
+    font-size:3rem;
 }
 
 h2{
     color:#335576;
-    margin-left: 3rem;
   }
 
 p{
     color:#335576;
-    margin-left: 3rem;
 }
 
 h3{
@@ -24,8 +20,9 @@ h3{
 .hero{
     display:flex;
     width:100%;
-    margin-top: 5rem;
     background-color: #FEFAF5;
+    margin-top:9vh;
+    padding:7vh 7vw 7vh 7vw;
 }
 
 .hero__container{
@@ -37,7 +34,8 @@ h3{
 .hero__travelImage{
     display:flex;
     max-height:100%;
-    max-width:50%;
+    max-width:40%;
+    margin-left:5vw;
 }
 
 .hero__startButton{
@@ -57,8 +55,7 @@ h3{
     background-color: #FFFFFF;
     display:flex;
     flex-direction: column;
-    margin-top:2rem;
-    margin-bottom:1rem;
+    padding:1.5vh 7vw 1.5vh 7vw;
 }
 
 .recommended {

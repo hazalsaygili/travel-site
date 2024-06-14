@@ -3,12 +3,6 @@ html {
     font-family: Verdana;
   }
 
-  .home{
-    display:flexbox;
-    width:100%;
-
-}
-
 *,
 *:before,
 *:after {
@@ -21,16 +15,16 @@ html {
     justify-content:space-evenly;
     align-items: center;
     top:0;
-    height:5rem;
+    height:9vh;
     width: 100%;
     background-color: #FFFFFF;
+    padding: 1.5vh 6vw 1.5vh 6vw;
   }
 
 .navbar__title{
     display:flex;
     width:30%;
     color:#335576;
-    margin-left:3rem;
   }
 
   .navbar__panel{
@@ -38,7 +32,6 @@ html {
     width: 70%;
     justify-content: flex-end;
     align-items: center;
-    margin-right:3rem;
   }
 
 .navbar__link{
@@ -62,12 +55,9 @@ html {
  .footer{
     display:flex;
     justify-content:center;
-    height:10%;
+    height:20vh;
     background-color: #FEFAF5;
-    padding-left:5rem;
-    padding-right:5rem;
-    padding-bottom:3rem;
-    padding-top:3rem;
+    padding:5vh 11vw 5vh 11vw; 
 
 }
 
@@ -77,7 +67,6 @@ html {
 }
 
 .contact__panel{
-    margin-left:3rem;
     display:flex;
     flex-direction:column;
 }
@@ -89,13 +78,11 @@ html {
 .footer__days{
     display:flex;
     width:100%;
-    margin-left:3rem;
 }
 
 .footer__hours{
     display:flex;
     font-size: 0.8rem;
-    margin-left:3rem;
     justify-content:flex-start;
 }
 .footer__subtitle{
