@@ -9,6 +9,11 @@ html {
   box-sizing: inherit;
 }
 
+body {
+    margin:0;
+    padding:0;
+}
+
 .navbar{
     position:fixed;
     display:flex;
@@ -17,6 +22,7 @@ html {
     top:0;
     height:9vh;
     width: 100%;
+    z-index: 1;
     background-color: #FFFFFF;
     padding: 1.5vh 6vw 1.5vh 6vw;
 }
@@ -47,20 +53,16 @@ a{
 
 
 .navbar__link{
-    display:flexbox;
     text-align: center;
     text-decoration:none;
     color:black;
-    padding: 0.7rem;
+    padding: 0.3rem;
+    margin:0.2rem;
   }
 
 .navbar__link--active{
     height:100%;
-    text-decoration:none;
-    text-align: center;
-    color:black;
     border-bottom: 3px solid #DB7A4E;
-    padding:0.7rem;
 
  }
 
