@@ -1,86 +1,87 @@
-h1{
-    color:#335576;
-    max-height:100%;
-    max-width:100%;
-    font-size:2.8rem;
+h1 {
+    color: #335576;
+    max-height: 100%;
+    max-width: 100%;
+    font-size: 2.8rem;
 }
 
 
-p{
-    color:#335576;
-    font-size:1.25rem;
+p {
+    color: #335576;
+    font-size: 1.25rem;
 }
 
 
-.hero{
-    display:flex;
-    width:100%;
+.hero {
+    display: flex;
+    width: 100%;
     background-color: #FEFAF5;
-    margin-top:9vh;
-    padding:7vh 7vw 7vh 7vw;
+    margin-top: 9vh;
+    padding: 7vh 7vw 7vh 7vw;
 }
 
-.hero__container{
-    display:flex;
-    flex-direction:column;
-    height:100%;
-    width:50%;
-}
-.hero__travelImage{
-    display:flex;
-    max-height:100%;
-    max-width:50%;
-    margin-left:5vw;
+.hero__container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 50%;
 }
 
-.hero__startButton{
-    display:flex;
+.hero__travelImage {
+    display: flex;
+    max-height: 100%;
+    max-width: 50%;
+    margin-left: 5vw;
+}
+
+.hero__startButton {
+    display: flex;
     border-radius: 1rem;
     border-width: 0;
     color: #FFFFFF;
     align-content: center;
     justify-content: center;
-    padding:0.5rem;
-    background-color:#DB7A4E;
+    padding: 0.5rem;
+    background-color: #DB7A4E;
     width: 30%;
     font-size: 1.25rem;
 }
 
-.recommendations{
+.recommendations {
     background-color: #FFFFFF;
-    display:flex;
+    display: flex;
     flex-direction: column;
-    padding:1.5vh 7vw 1.5vh 7vw;
+    padding: 1.5vh 7vw 1.5vh 7vw;
 }
 
 .recommended {
-    display:flex;
+    display: flex;
     justify-content: center;
-    margin:1rem;
+    margin: 1rem;
 }
 
-.recommended__citycard{
-    position:relative;
-    display:flex;
+.recommended__citycard {
+    position: relative;
+    display: flex;
     flex-direction: row;
-    width:25%;
-    border-radius:5px;
-    box-shadow: 0px 4px 4px  rgba(0, 0, 0, 0.2);
-    border:1px solid rgba(0, 0, 0, 0.2);
-    margin:1rem;
-    margin-bottom:4rem;
-    padding:0;
+    width: 25%;
+    border-radius: 5px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    margin: 1rem;
+    margin-bottom: 4rem;
+    padding: 0;
 }
 
-.recommended__citycard--image{
-    display:flex;
-    width:100%;
-    max-height:100%;
+.recommended__citycard--image {
+    display: flex;
+    width: 100%;
+    max-height: 100%;
 }
 
-.recommended__citycard--name{
-    position:absolute;
-    bottom:1rem;
-    right:1rem;
-    color:#FFFFFF;
+.recommended__citycard--name {
+    position: absolute;
+    bottom: 1rem;
+    right: 1rem;
+    color: #FFFFFF;
 }

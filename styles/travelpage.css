@@ -1,75 +1,74 @@
-.destination{
-    margin-top:9vh;
-    background-size:cover;
-    background-position:center;
-    height:100vh;
-    width:100%;
-    padding:0;
+.destination {
+    margin-top: 9vh;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+    padding: 0;
 
 }
 
-.destination__panel{
+.destination__panel {
     padding: 2rem 6rem 3rem 6rem;
 }
 
-h1{
-    color:#FFFFFF;
+h1 {
+    color: #FFFFFF;
     font-size: 4rem;
     font-weight: bolder;
 }
 
-.destination__hawaii{
-    width:100%;
+.destination__hawaii {
+    width: 100%;
     background-image: url("../assets/Images/hawaii.jpg");
 }
 
-.destination__iceland{
+.destination__iceland {
     background-image: url("../assets/Images/iceland.jpg");
 }
 
-.destination__greece{
+.destination__greece {
     background-image: url("../assets/Images/greece.jpg");
 }
 
-.activities__panel{
-    display:flex;
-    max-width:85vw;
-    max-height:50vh;
-    align-items:center;
+.activities__panel {
+    display: flex;
+    max-width: 85vw;
+    max-height: 50vh;
+    align-items: center;
     justify-content: space-between;
-    padding:0 4vw 2vh 18vw;
+    padding: 0 4vw 2vh 18vw;
 
 }
 
-.activities__list{
-    display:flex;
+.activities__list {
+    display: flex;
     flex-direction: column;
     list-style-type: none;
     align-items: center;
     justify-content: space-between;
     background-color: #FFFFFF;
-    height:50vh;
-    width:18vw;
+    height: 50vh;
+    width: 18vw;
     padding: 0 1vw 6vh 1vw;
     border-radius: 0.4rem;
 
 }
 
-.activity__day{
+.activity__day {
     font-size: 1.2rem;
-    width:100%;
-    height:50;
-    font-weight:1000;
+    width: 100%;
+    height: 50;
+    font-weight: 1000;
     text-align: center;
     border-bottom: 3px solid black;
 }
 
-.activity__item{
-    background-color:#FEFAF5;
-    width:100%;
-    height:16%;
+.activity__item {
+    background-color: #FEFAF5;
+    width: 100%;
+    height: 16%;
     text-align: center;
     padding: 0.5rem 0 0.5rem 0;
 
 }
-
