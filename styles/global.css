@@ -78,11 +78,6 @@ a{
 
 }
 
-.contact__panel{
-    display:flex;
-    flex-direction:column;
-}
-
 .hours{
     width:50%;
 }
@@ -96,14 +91,14 @@ a{
 
 .footer__hours{
     display:flex;
-    font-size: 0.8rem;
     max-width:68%;
     justify-content:space-between;
 }
+
 .footer__subtitle{
     color:#DB7A4E;
     width:30%;
-    font-size:0.7rem;
+    font-size:0.6rem;
     font-weight: 400;
     display:flex;
     justify-content:space-between;
@@ -112,7 +107,7 @@ a{
 
 .footer__parag{
     margin:0;
-    font-size:0.6rem;
+    font-size:0.8rem;
     color:#335576;
 }
 
@@ -126,12 +121,12 @@ a{
     flex-direction:row;
     align-items:center;
     justify-content: space-between;
-    padding:1rem 1rem 1rem 0;
+    padding:1rem 6rem 1rem 0;
 
 }
 
 .socialmedia__icon{
     display:flex;
-    height:2rem;
+    height:1.8rem;
 }
  
