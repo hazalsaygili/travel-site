@@ -81,6 +81,7 @@ p {
     display: flex;
     width: 100%;
     max-height: 100%;
+    border-radius: 0.2rem;
 }
 
 .recommended__citycard--name {

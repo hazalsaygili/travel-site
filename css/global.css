@@ -58,12 +58,17 @@ a {
     color: black;
     padding: 0.3rem;
     margin: 0.2rem;
+    transition: 0.1s;
 }
 
 .navbar__link--active {
     height: 100%;
     border-bottom: 3px solid #DB7A4E;
 
+}
+
+.navbar__link:hover{
+    border-bottom: 3px solid #DB7A4E;
 }
 
 .footer {
